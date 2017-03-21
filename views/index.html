@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prof Project 2</title>
+    <link rel="stylesheet" href="/public/styles.css" />
+  </head>
+  <body>
+    <form method="post" action="/index">
+      <input type="text" name="item">
+      <button type="submit">Create</button>
+    </form>
+    <ul>
+      {% for item in list %}
+      <li>{{ item.item }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
