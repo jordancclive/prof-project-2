@@ -1,2 +1,2 @@
 # Prof Project
-Simple Express, Sequelize, Postgres app I build for my Fullstack Academy professor.
+Simple Node, Express, Sequelize, Postgres app I build for my Fullstack Academy professor.
